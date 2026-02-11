@@ -1,0 +1,140 @@
+# Ashantini Chelliah – Portfolio Website
+
+## Project Overview
+
+This project is a personal portfolio website created as part of Project 1 for my web development course.
+
+The aim of the website is to provide a simple and professional space where I can introduce myself, show example projects, and demonstrate the skills I have learned so far using HTML and CSS.
+
+The website is designed to be clear, easy to navigate, and responsive on different screen sizes.
+
+
+
+## User Experience (UX)
+
+### Target Audience
+The main users of this site are:
+
+- Potential employers
+- Tutors and assessors
+- Anyone wanting to view my beginner web development work
+
+### User Goals
+Users should be able to:
+
+- Understand who I am quickly
+- View my example projects
+- Navigate between pages easily
+- Access the site on mobile or desktop without layout issues
+
+
+
+## User Stories
+
+- As a visitor, I want to land on a homepage that clearly explains what the website is.
+- As a user, I want to move between pages using a navigation menu.
+- As an assessor, I want to see that the site uses clean HTML and CSS structure.
+- As a recruiter, I want to view projects in a simple portfolio layout.
+
+
+
+## Design Choices
+
+The website design was kept minimal and clean to ensure readability.
+
+- A dark navigation bar was used to create contrast
+- A light background was chosen to keep the site simple and accessible
+- The layout uses spacing and clear headings to separate content
+
+Inspiration for simple layout ideas was taken from:
+
+- Bootstrap documentation
+- Awwwards portfolio examples
+- MDN Web Docs for HTML structure
+
+
+
+## Features
+
+- Multi-page website (Home, About, Portfolio)
+- Navigation menu across all pages
+- Responsive layout using flexbox
+- Simple project card design
+- Footer included on every page
+
+
+
+## Technologies Used
+
+- HTML5 (semantic page structure)
+- CSS3 (styling and layout)
+- Visual Studio Code (development environment)
+- Git and GitHub (version control and deployment)
+
+
+
+## Testing
+
+Testing was completed manually by:
+
+- Opening all pages in Chrome
+- Checking navigation links work correctly
+- Resizing the browser window to confirm responsive layout
+- Ensuring text remains readable on smaller screens
+
+### Validators
+
+- CSS tested using W3C CSS Validator## Validation
+- The HTML pages were tested using the W3C Validator.
+
+During validation, a few small errors appeared such as:
+![alt text](image-1.png) 
+![alt text](image-2.png)
+- Incorrect charset formatting
+- A typo in the stylesheet link attribute
+
+These were corrected, and all pages now pass validation successfully.
+
+The CSS file was also tested using the W3C Jigsaw Validator with no errors found.
+
+
+
+
+## Bugs and Fixes
+
+During development, some issues occurred:
+
+- Navigation spacing was uneven at first  
+  Was fixed by adjusting flexbox alignment
+
+- Images did not scale properly on mobile  
+  Was fixed by using responsive image styling in CSS
+
+
+
+## Deployment
+
+The website was deployed using GitHub Pages.
+
+Steps:
+
+1. Push project to GitHub repository
+2. Go to Settings → Pages
+3. Select Main Branch and save
+4. The site becomes available at the GitHub Pages link
+
+
+
+## Credits
+
+Helpful resources used:
+
+- Bootstrap Navbar examples  
+  https://getbootstrap.com/
+
+- HTML and CSS reference  
+  https://developer.mozilla.org/
+
+- Layout inspiration  
+  https://www.awwwards.com/
+

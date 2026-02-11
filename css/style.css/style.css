@@ -1,0 +1,41 @@
+:root{
+  --bg: #f5f1eb; /* oatmeal */
+  --header: #5c3a21; /* dark brown */
+  --text: #3d2b1f; /* brown */
+  --link: #8b5e3c; /* slightly lighter brown */
+  --muted: #7a6554;
+}
+
+/* Reset */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+
+.container{max-width:1000px;margin:0 auto;padding:1rem}
+
+/* Header / Navigation */
+header{background:var(--header);color:var(--bg)}
+nav .container{display:flex;align-items:center;justify-content:space-between}
+nav ul{list-style:none;display:flex;gap:1rem;margin:0;padding:0}
+nav a{color:var(--bg);text-decoration:none;padding:0.75rem 1rem;display:inline-block}
+nav a:hover{color:var(--link)}
+
+/* Hero */
+.hero{padding:3rem 0;text-align:center}
+.hero h1{font-size:2rem;margin-bottom:0.5rem}
+.hero p{max-width:720px;margin:0.5rem auto;color:var(--muted)}
+
+/* Sections */
+main section{margin:1.5rem 0}
+
+/* Projects grid */
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.project{background:rgba(92,58,33,0.06);border-radius:6px;padding:0.6rem}
+.project img{width:100%;height:auto;border-radius:4px;display:block}
+.project h3{margin:0.5rem 0 0.25rem 0}
+.project p{margin:0;color:var(--muted)}
+
+/* Footer */
+footer{background:var(--header);color:var(--bg);padding:1rem 0;margin-top:2rem}
+
+@media (max-width:560px){nav .container{flex-direction:column;gap:0.5rem}}
+
