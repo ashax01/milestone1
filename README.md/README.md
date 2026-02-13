@@ -1,4 +1,4 @@
-# Ashantini Chelliah – Portfolio Website
+# Ashantini Chelliah Web Developer
 
 ## Project Overview
 
@@ -129,12 +129,16 @@ Steps:
 
 Helpful resources used:
 
-- Bootstrap Navbar examples  
+-Bootstrap Navbar examples  
   https://getbootstrap.com/
 
-- HTML and CSS reference  
+-HTML and CSS reference  
   https://developer.mozilla.org/
 
-- Layout inspiration  
+-Layout inspiration  
   https://www.awwwards.com/
 
+Images were sourced from free stock photography websites:
+
+- https://www.pexels.com
+- https://www.unsplash.com
