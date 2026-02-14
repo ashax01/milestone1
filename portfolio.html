@@ -1,61 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Projects</title>
-  <!-- Link to shared stylesheet -->
+  <title>Portfolio</title>
+
+  <!-- Same stylesheet path as about.html -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-  <!-- Navigation -->
+  <!-- Header with navigation -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Main Content -->
+  <!-- Main content -->
   <main class="container">
     <section>
-      <h1>My Projects</h1>
-      <p>
-        These are beginner project concepts I created to practise building
-        multi-page websites using HTML and CSS.
-      </p>
+      <h1>My Work</h1>
+      <p class="muted">A selection of projects demonstrating my interests in front‑end, UI/UX, and creative coding.</p>
+    </section>
 
-      <div class="project-card">
-  <img src="images/cafe.jpg" alt="Café website project">
- <h3>Café Website</h3>
-  <p>A website concept designed for a small café.</p>
-</div>
+    <!-- Example project grid (adjust classes to match your CSS) -->
+    <section aria-label="Projects">
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-media">
+            <!-- Replace with your own image path if you have one -->
+            <img src="images/project-1.jpg" alt="Screenshot of Project One" loading="lazy">
+          </div>
+          <div class="project-body">
+            <h2>Project One</h2>
+            <p>Responsive landing page built with semantic HTML and modern CSS layout techniques.</p>
+            <p class="muted">Tech: HTML5, CSS3 (Flexbox/Grid)</p>
+            <!-- Replace # with real links if available -->
+            <p>
+              <a href="#" class="btn">View Live</a>
+              <a href="#" class="btn">Source Code</a>
+            </p>
+          </div>
+        </article>
 
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="images/project-2.jpg" alt="Screenshot of Project Two" loading="lazy">
+          </div>
+          <div class="project-body">
+            <h2>Project Two</h2>
+            <p>Interactive UI experiment exploring animations and micro‑interactions.</p>
+            <p class="muted">Tech: HTML, CSS animations, basic JS</p>
+            <p>
+              <a href="#" class="btn">View Live</a>
+              <a href="#" class="btn">Source Code</a>
+            </p>
+          </div>
+        </article>
 
-      <div class="project-card">
-          <img src="images/party.jpg" alt="Balloon decor events project">
-          <h3>Party Decor Events Website</h3>
-          <p>A site idea for balloon event services and enquiries.</p>
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="images/project-3.jpg" alt="Screenshot of Project Three" loading="lazy">
+          </div>
+          <div class="project-body">
+            <h2>Project Three</h2>
+            <p>Simple portfolio/gallery layout focusing on typography and spacing.</p>
+            <p class="muted">Tech: HTML, CSS</p>
+            <p>
+              <a href="#" class="btn">View Live</a>
+              <a href="#" class="btn">Source Code</a>
+            </p>
+          </div>
+        </article>
       </div>
-
-
-      <div class="project-card">
-  <img src="images/salon.jpg" alt="Hair salon website project">
-  <h3>Hair Salon Website</h3>
-  <p>A clean salon design with services and booking section.</p>
-</div>
-
     </section>
   </main>
 
   <!-- Footer -->
   <footer>
-    <div class=\"container\">
+    <div class="container">
       <p>&copy; 2026 Ashantini Chelliah</p>
     </div>
   </footer>

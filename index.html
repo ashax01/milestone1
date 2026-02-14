@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"> <!-- charset UTF-8 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- responsive -->
-  <title>Welcome | Portfolio</title>
-  <!-- Link to the shared stylesheet -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+
+  <!-- Same stylesheet path as about.html -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Header with site navigation -->
+  <!-- Header with navigation -->
   <header>
     <div class="container">
-      <nav>
+      <nav aria-label="Primary">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
@@ -22,22 +23,28 @@
     </div>
   </header>
 
+  <!-- Main content -->
   <main class="container">
-    <!-- Hero section: main welcome message -->
-    <section class="hero">
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is a simple, beginner-friendly portfolio showcasing example projects and developer information. I'm an aspiring web developer passionate about creating engaging and functional websites. I'm currently on a journey to master HTML, CSS, and JavaScript, and I'm excited to share my progress and projects with you. My goal is to build intuitive user experiences and bring creative ideas to life through code. Use the navigation above to explore.</p>
+    <section>
+      <h1>Welcome</h1>
+      <p>
+        Hi! I’m an aspiring web developer focused on building clean, user-friendly experiences with
+        HTML, CSS, and JavaScript. Explore my work and learn more about me.
+      </p>
+      <p class="muted">Tip: Use the navigation above to visit my About and Portfolio pages.</p>
     </section>
 
-    <!-- Intro section: short description about the site -->
-    <section class="intro">
-      <h2>About This Site</h2>
-      <p>This website was built as part of my first milestone project to practise HTML and CSS. It uses semantic structure and a shared stylesheet to keep the design consistent across all pages.</p>
+    <section>
+      <h2>What I Do</h2>
+      <ul>
+        <li>Responsive front‑end development</li>
+        <li>Accessible, semantic HTML</li>
+        <li>Clean, maintainable CSS</li>
+      </ul>
     </section>
   </main>
 
-  
-  <!-- Footer with copyright -->
+  <!-- Footer -->
   <footer>
     <div class="container">
       <p>&copy; 2026 Ashantini Chelliah</p>
@@ -46,3 +53,4 @@
 
 </body>
 </html>
+``
