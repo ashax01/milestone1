@@ -1,5 +1,7 @@
 # Ashantini Chelliah Web Developer
 
+View live site: file:///C:/Users/50126837/Desktop/milestone1/portfolio.html/portfolio.html
+
 ## Project Overview
 
 This project is a personal portfolio website created as part of Project 1 for my web development course.
