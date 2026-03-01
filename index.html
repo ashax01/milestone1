@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Home</title>
 
-  <!-- Same stylesheet path as about.html -->
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Shared stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
 
-  <!-- Header with navigation -->
+<body>
+  <!-- Header / Navigation -->
   <header>
-    <div class="container">
-      <nav aria-label="Primary">
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav aria-label="Primary">
+      <div class="nav-container">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+    </nav>
   </header>
 
   <!-- Main content -->
   <main class="container">
-    <section>
+
+    <section class="card">
       <h1>Welcome</h1>
       <p>
         Hi! I’m an aspiring web developer focused on building clean, user-friendly experiences with
@@ -34,7 +33,7 @@
       <p class="muted">Tip: Use the navigation above to visit my About and Portfolio pages.</p>
     </section>
 
-    <section>
+    <section class="card">
       <h2>What I Do</h2>
       <ul>
         <li>Responsive front‑end development</li>
@@ -42,15 +41,14 @@
         <li>Clean, maintainable CSS</li>
       </ul>
     </section>
+
   </main>
 
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2026 Ashantini Chelliah</p>
+      <p>&copy; 2026 Ashantini</p>
     </div>
   </footer>
-
 </body>
 </html>
-``

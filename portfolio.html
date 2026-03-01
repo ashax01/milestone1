@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfolio</title>
 
-  <!-- Same stylesheet path as about.html -->
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Shared stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
 
-  <!-- Header with navigation -->
+<body>
+  <!-- Header / Navigation -->
   <header>
-    <div class="container">
-      <nav aria-label="Primary">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav aria-label="Primary">
+      <div class="nav-container">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html" aria-current="page">Portfolio</a>
+      </div>
+    </nav>
   </header>
 
   <!-- Main content -->
@@ -30,55 +28,55 @@
       <p class="muted">A selection of projects demonstrating my interests in front‑end, UI/UX, and creative coding.</p>
     </section>
 
-    <!-- Example project grid (adjust classes to match your CSS) -->
     <section aria-label="Projects">
       <div class="projects-grid">
-        <!-- Project 1 -->
+        <!-- Project: Cafe -->
         <article class="project-card">
           <div class="project-media">
-            <!-- Replace with your own image path if you have one -->
-            <img src="images/project-1.jpg" alt="Screenshot of Project One" loading="lazy">
+            <img src="images/cafe.jpg" alt="Mockup of a modern cafe website with warm, inviting design" loading="lazy" width="800" height="450">
           </div>
           <div class="project-body">
-            <h2>Project One</h2>
-            <p>Responsive landing page built with semantic HTML and modern CSS layout techniques.</p>
-            <p class="muted">Tech: HTML5, CSS3 (Flexbox/Grid)</p>
-            <!-- Replace # with real links if available -->
-            <p>
-              <a href="#" class="btn">View Live</a>
-              <a href="#" class="btn">Source Code</a>
+            <h2>Café Website</h2>
+            <p>Landing page concept for a local café with emphasis on typography, menu highlights, and cozy brand imagery.</p>
+            <p class="muted">Tech: HTML5, CSS3 (Grid/Flexbox)</p>
+            <p class="project-links">
+              <a href="#" aria-label="View live Café Website project (placeholder)">View Live</a>
+              <span class="sep" aria-hidden="true">|</span>
+              <a href="#" aria-label="View source code for Café Website project (placeholder)">Source Code</a>
             </p>
           </div>
         </article>
 
-        <!-- Project 2 -->
+        <!-- Project: Party -->
         <article class="project-card">
           <div class="project-media">
-            <img src="images/project-2.jpg" alt="Screenshot of Project Two" loading="lazy">
+            <img src="images/party.jpg" alt="Colorful party event page preview with bold call-to-action" loading="lazy" width="800" height="450">
           </div>
           <div class="project-body">
-            <h2>Project Two</h2>
-            <p>Interactive UI experiment exploring animations and micro‑interactions.</p>
-            <p class="muted">Tech: HTML, CSS animations, basic JS</p>
-            <p>
-              <a href="#" class="btn">View Live</a>
-              <a href="#" class="btn">Source Code</a>
+            <h2>Party Event Page</h2>
+            <p>Vibrant single‑page layout for an events promo with schedule, location, and RSVP components.</p>
+            <p class="muted">Tech: HTML, CSS animations</p>
+            <p class="project-links">
+              <a href="#" aria-label="View live Party Event Page project (placeholder)">View Live</a>
+              <span class="sep" aria-hidden="true">|</span>
+              <a href="#" aria-label="View source code for Party Event Page project (placeholder)">Source Code</a>
             </p>
           </div>
         </article>
 
-        <!-- Project 3 -->
+        <!-- Project: Salon -->
         <article class="project-card">
           <div class="project-media">
-            <img src="images/project-3.jpg" alt="Screenshot of Project Three" loading="lazy">
+            <img src="images/salon.jpg" alt="Elegant salon website preview with service cards and pricing" loading="lazy" width="800" height="450">
           </div>
           <div class="project-body">
-            <h2>Project Three</h2>
-            <p>Simple portfolio/gallery layout focusing on typography and spacing.</p>
-            <p class="muted">Tech: HTML, CSS</p>
-            <p>
-              <a href="#" class="btn">View Live</a>
-              <a href="#" class="btn">Source Code</a>
+            <h2>Salon Services</h2>
+            <p>Clean, elegant services page with a grid of offerings, pricing, and booking prompt.</p>
+            <p class="muted">Tech: HTML, CSS, responsive layout</p>
+            <p class="project-links">
+              <a href="#" aria-label="View live Salon Services project (placeholder)">View Live</a>
+              <span class="sep" aria-hidden="true">|</span>
+              <a href="#" aria-label="View source code for Salon Services project (placeholder)">Source Code</a>
             </p>
           </div>
         </article>
@@ -86,12 +84,10 @@
     </section>
   </main>
 
-  <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2026 Ashantini Chelliah</p>
+      <p>&copy; 2026 Ashantini</p>
     </div>
   </footer>
-
 </body>
 </html>
