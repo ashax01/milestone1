@@ -19,19 +19,20 @@ User Goals
 Users should be able to:
 
 Understand who I am quickly
+
 View my example projects
 Navigate between pages easily
 Access the site on mobile or desktop without layout issues
 
-User Stories
+## User Stories
 
-As a visitor, I want to land on a homepage that clearly explains what the website is.
+### As a visitor, I want to land on a homepage that clearly explains what the website is.
 This is achieved through:
 - A clear introduction on the homepage
 - An explanation of the website's purpose
 - Easy-to-read content and headings
 
-As a user, I want to move between pages using a navigation menu.
+### As a user, I want to move between pages using a navigation menu.
 This is achieved through:
 - A navigation bar displayed on every page
 - Links to the Home, About and Portfolio pages
