@@ -1,6 +1,6 @@
 # Ashantini Chelliah Web Developer
 
-View live site: file:///C:/Users/50126837/Desktop/milestone1/portfolio.html/portfolio.html
+View live site: https://ashax01.github.io/milestone1/
 
 ## Project Overview
 
@@ -33,11 +33,31 @@ Users should be able to:
 
 ## User Stories
 
-- As a visitor, I want to land on a homepage that clearly explains what the website is.
-- As a user, I want to move between pages using a navigation menu.
-- As an assessor, I want to see that the site uses clean HTML and CSS structure.
-- As a recruiter, I want to view projects in a simple portfolio layout.
+User Stories
 
+1. As a visitor, I want to land on a homepage that clearly explains what the website is.
+
+- A clear introduction is visible on the homepage.
+- The purpose of the website is explained.
+- The content is easy to read.
+
+2. As a user, I want to move between pages using a navigation menu.
+
+- Navigation links are visible on every page.
+- Users can move between Home, About and Portfolio pages.
+- The current page is highlighted.
+
+3. As an assessor, I want to see that the site uses clean HTML and CSS structure.
+
+- Semantic HTML elements are used.
+- CSS is stored in an external stylesheet.
+- Code is organised and readable.
+
+4. As a recruiter, I want to view projects in a simple portfolio layout.
+
+- Projects are displayed as cards.
+- Each project includes information.
+- The layout works on different screen sizes.
 
 
 ## Design Choices
